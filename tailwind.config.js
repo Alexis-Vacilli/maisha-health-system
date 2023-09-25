@@ -7,11 +7,21 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      backgroundImage:{
+        'hero': "url('/images/hero/bg-no-circles.svg')",
+        'service': "url('/images/services/Service_bg.svg')",
+        'childHeader': "url('/images/child-pages/headerbgs.svg')",
+        'loginBg': "url('/images/child-pages/selection.svg')",
       },
+    colors: {
+      whiteTheme: {
+        pinkAccent: "#EEF0FF",
+        linkColor:"#404040",
+        primaryColor:"#1E2F97",
+        bgGray:"#F1F1F1",
+        footerBg:"#EDF0FF"
+      }
+    }
     },
   },
   plugins: [],
