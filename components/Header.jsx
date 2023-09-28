@@ -4,7 +4,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 
 const Header = () => {
   return (
-    <nav className="sticky top-0 h-20 bg-white px-4 border-b border-[#abb8ff] flex justify-between items-center">
+    <nav className="sticky top-0 h-20 bg-white px-4 border-b border-[#767676] flex justify-between items-center">
       <div className="relative">
         <HiOutlineSearch
           fontSize={20}

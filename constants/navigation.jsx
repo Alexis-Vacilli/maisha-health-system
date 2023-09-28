@@ -19,7 +19,7 @@ export const MAIN_MENU_LINKS = [
     {
         key: "patients",
         label: "Patients",
-        path: "/patient",
+        path: "/patients",
         icon: <HiOutlineUserGroup />
     },
 

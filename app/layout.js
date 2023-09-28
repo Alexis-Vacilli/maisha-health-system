@@ -1,7 +1,5 @@
-import Sidebar from '@/components/Sidebar'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
-import Header from '@/components/Header'
 
 const montserrat = Montserrat({ subsets: ['latin'] })
 

@@ -3,6 +3,8 @@ import Image from "next/image";
 import { CiUser, CiLock } from "react-icons/ci";
 import loginPic from "../../../public/images/Medical prescription-bro.png";
 import imgWebLogo from "../../../public/images/logo.png";
+import background from "../../../public/images/background.png";
+
 
 const Login = () => {
   return (
@@ -44,16 +46,16 @@ const Login = () => {
                 </Link>
               </div>
               <div className="flex full">
-                <button className="primary-btn w-full py-2 flex items-center gap-3 justify-evenly font-bold hover-style">
+                <button className="primary-btn w-full py-2 flex items-center gap-3 justify-evenly font-bold hover-style bg-whiteTheme-primaryColor text-white">
                   Login
                 </button>
               </div>
             </form>
           </div>
         </div>
-        <div className="w-1/2 hidden lg:flex  h-[500px] bg-loginBg rounded-r-md flex-col items-center justify-center gap-2 text-white bg-whiteTheme-primaryColor">
+        <div className="w-1/2 hidden lg:flex  h-[500px] bg-loginBg rounded-r-md flex-col items-center justify-center gap-2 text-white">
           <Image src={loginPic} alt="Login" className="w-40" />
-          <h3 className="font-semibold text-2xl mt-4">
+          <h3 className="font-semibold text-2xl mt-4 ">
             Welcome to Maisha Health care System
           </h3>
           <p className="w-72 text-center">

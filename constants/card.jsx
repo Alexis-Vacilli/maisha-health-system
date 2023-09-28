@@ -8,30 +8,30 @@ export const CARD_DATA = [
     {
         key: "hospital",
         label: "Hospitals",
-        icon: admin,
+        icon: hospitals,
         number: 120,
         colors: "#1E2F97"
     },
     {
         key: "pharmacy",
         label: "Pharmacies",
-        icon: hospitals,
+        icon: pharmacies,
         number: 12,
         colors: "#18662D"
     },
     {
         key: "admins",
         label: "Admins",
-        icon: partners,
+        icon: admin,
         number: 234,
         colors: "#9A4A4D"
     },
     {
         key: "partner",
         label: "Partners",
-        icon: pharmacies,
+        icon: partners,
         number: 32,
-        colors: "#B63A44"
+        colors: "#B52B00"
     }
 
 ]

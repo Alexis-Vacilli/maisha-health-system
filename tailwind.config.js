@@ -11,7 +11,7 @@ module.exports = {
         'hero': "url('/images/hero/bg-no-circles.svg')",
         'service': "url('/images/services/Service_bg.svg')",
         'childHeader': "url('/images/child-pages/headerbgs.svg')",
-        'loginBg': "url('/images/child-pages/selection.svg')",
+        'loginBg': "url('/public/images/selection.svg')",
       },
     colors: {
       whiteTheme: {
