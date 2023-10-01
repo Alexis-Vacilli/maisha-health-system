@@ -125,7 +125,9 @@ const page = () => {
           </div>
         </div>
         {/* 2nd element */}
-        <div>Symptoms and Medication</div>
+        <div className="border border-[#abb8ff7e] rounded-md">
+          <h4 className="p-4 font-semibold">Symptoms/Medication</h4>
+        </div>
       </div>
     </div>
   );

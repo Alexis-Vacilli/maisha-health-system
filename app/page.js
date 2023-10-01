@@ -12,10 +12,10 @@ export default function Home() {
       <Sidebar />
       <div className="flex-1">
         <Header />
-        <div className="">
+        <div className="w-full flex flex-col items-center gap-10 justify-center py-10">
           <Banner />
           <Card />
-          <BasicTable />
+          <Tables />
         </div>
       </div>
     </div>
