@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Sidebar from "@/components/Sidebar";
-import Header from "@/components/Header";
+import Header from "@/components/Header/Header";
 import Banner from "@/components/Banner";
-import Tables from "@/components/Tables";
+import Tables from "@/components/Table/Tables";
 import Card from "@/components/Card";
+import { BasicTable } from "@/components/Table/BasicTable";
 
 export default function Home() {
   return (
@@ -11,10 +12,10 @@ export default function Home() {
       <Sidebar />
       <div className="flex-1">
         <Header />
-        <div className="w-full flex flex-col items-center gap-10 justify-center py-10">
+        <div className="">
           <Banner />
           <Card />
-          <Tables />
+          <BasicTable />
         </div>
       </div>
     </div>
