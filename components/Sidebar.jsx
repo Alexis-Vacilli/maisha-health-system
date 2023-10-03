@@ -8,6 +8,7 @@ import Image from "next/image";
 import userRoutes from "@/constants/userRoutes";
 import { authContext } from "@/app/(dashboard)/layout";
 import { useContext } from "react";
+import { Logo } from "./Logo";
 
 const Sidebar = () => {
   const userRole = useContext(authContext)
@@ -17,7 +18,8 @@ const Sidebar = () => {
     <aside className=" sticky top-0 bg-white flex flex-col py-6 w-64 items-center space-y-7 border-r border-[#abb8ff]">
       <div className="flex justify-center py-5">
         {/* <Image src={logo} alt="Maisha logo" width={130} quality={100}  placeholder="blur" /> */}
-        <div className="text-3xl font-bold text-gray-700">[Maisha-<span className="text-whiteTheme-primaryColor">Logo]</span></div>
+        {/* <div className="text-3xl font-bold text-gray-700">[Maisha-<span className="text-whiteTheme-primaryColor">Logo]</span></div> */}
+      <Logo text={"Maisha"} textsize={'text-xl'}/>
       </div>
       <div className="w-full">
         <h3 className=" text-whiteTheme-titleColor pl-12 font-semibold">Main menu</h3>
