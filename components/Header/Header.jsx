@@ -13,7 +13,7 @@ const Header = () => {
   const userRole = useContext(authContext)
   const routes = userRoutes[userRole];
   return (
-    <nav className="sticky top-0 h-20 bg-white px-4 border-b border-[#767676] flex justify-between items-center">
+    <nav className="sticky top-0 h-20 bg-white px-4 shadow-sm flex justify-between items-center">
       <h1 className="text-2xl text-gray-900 capitalize font-semibold">{userRole}</h1>
       <div className="flex items-center gap-4 mr-2">
         <BiMoon fontSize={27} />
