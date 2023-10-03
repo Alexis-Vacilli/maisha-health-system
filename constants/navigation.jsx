@@ -13,7 +13,7 @@ export const MAIN_MENU_LINKS = [
     {
         key: "overview",
         label: "Overview",
-        path: "/",
+        path: "/overview",
         icon: <PiSquaresFour />
     },
     {

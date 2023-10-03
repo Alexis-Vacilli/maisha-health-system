@@ -1,10 +1,13 @@
 import { AiOutlineEye } from "react-icons/ai";
 import Image from "next/image";
-import bannerImage from "../public/images/banner.png"
+import bannerImage from "../public/images/banner.png";
+
+
 
 const Banner = () => {
+  
   return (
-    <div className="flex rounded-md items-center bg-[#1E2F97] w-11/12 p-8 gap-10">
+    <div className="flex rounded-md items-center bg-whiteTheme-primaryColor w-11/12 p-8 gap-10">
       <div className="flex flex-col gap-3">
         <h1 className="text-white text-2xl">
           Welcome <span className="text-[#FFAB7F]">Sabato Hakizimana</span>

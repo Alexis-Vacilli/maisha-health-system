@@ -1,6 +1,8 @@
 "use client"
 import React, {useState} from 'react'
 import { AiOutlineCaretDown, AiOutlineCaretUp } from 'react-icons/ai';
+import { BiChevronDown, BiChevronUp } from 'react-icons/bi';
+
 import { CiUser } from 'react-icons/ci';
 import { FiLogOut } from 'react-icons/fi';
 
@@ -13,12 +15,12 @@ const Dropdown = () => {
             <div className="h-10 w-10 rounded-full bg-gray-300 p-4 flex justify-center items-center">
                 <h1>P</h1>
             </div>
-            <button onClick={() => setIsOpen((prev) => !prev)} className=" p-1 w-full flex items-center justify-between  text-base tracking-wider border-4 border-transparent active:border-white duration-300 active:text-blue-400">
+            <button onClick={() => setIsOpen((prev) => !prev)} className=" p-1 w-full flex items-center justify-between  text-base tracking-wider border-4 border-transparent active:border-white duration-300 active:text-blue-400 gap-3">
                 Jolivet Gislain
                 {!isOpen ? (
-                    <AiOutlineCaretDown />
+                    <BiChevronDown className="text-2xl" />
                 ) : (
-                    <AiOutlineCaretUp />
+                    <BiChevronUp className="text-2xl" />
                 )}
             </button>
             {isOpen && (

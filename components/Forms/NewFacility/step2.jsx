@@ -1,11 +1,11 @@
 import React from 'react'
 
-const page = () => {
+const step2 = () => {
     return (
         <div>
-            This is the home
+            Step2 form
         </div>
     )
 }
 
-export default page
+export default step2

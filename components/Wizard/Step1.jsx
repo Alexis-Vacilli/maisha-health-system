@@ -126,7 +126,7 @@ const Step1 = ({ formData, setFormData, nextStep }) => {
           </div>
         </div>
         <div>
-          <h2 className="py-4 text-lg text-[#1E2F97] font-semibold">
+          <h2 className="py-4 text-lg text-whiteTheme-primaryColor font-semibold">
             Guardin Information
           </h2>
           <div className="grid grid-cols-3 gap-x-5 py-4">
@@ -176,7 +176,7 @@ const Step1 = ({ formData, setFormData, nextStep }) => {
         </div>
         <button
           type="submit"
-          className="bg-[#1E2F97] text-white rounded-md px-16 py-2"
+          className="bg-whiteTheme-primaryColor text-white rounded-md px-16 py-2"
         >
           Next
         </button>
