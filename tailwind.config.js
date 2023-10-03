@@ -13,6 +13,9 @@ module.exports = {
         'childHeader': "url('/images/child-pages/headerbgs.svg')",
         'loginBg': "url('/public/images/selection.svg')",
       },
+      fontFamily:{
+        body:'var(--font-mont-serrat)'
+      },
       otherImages: {
          'logo': "url(/public/images/logo.png)",
          'bannerImage': "url(/public/images/banner.png)"
