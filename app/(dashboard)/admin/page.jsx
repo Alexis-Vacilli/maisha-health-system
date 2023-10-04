@@ -3,6 +3,7 @@ import Card from "@/components/Card";
 import React from "react";
 import Link from "next/link";
 import { FaPlus } from "react-icons/fa";
+import BasicTable from "@/components/Table/BasicTable";
 
 const page = () => {
   return (
@@ -18,6 +19,7 @@ const page = () => {
           <Link href="/admin/new-facility">Add facility</Link>
         </button>
       </div>
+      <BasicTable />
     </div>
   );
 };

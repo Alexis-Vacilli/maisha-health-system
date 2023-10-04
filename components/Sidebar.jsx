@@ -3,7 +3,7 @@ import {
   HELP_SETTINGS_LINKS,
 } from "@/constants/navigation";
 import Link from "next/link";
-import logo from '../public/images/favicon.png';
+import logo from '../public/images/Maisha logo.png';
 import Image from "next/image";
 import userRoutes from "@/constants/userRoutes";
 import { authContext } from "@/app/(dashboard)/layout";
@@ -14,10 +14,9 @@ const Sidebar = () => {
   const routes = userRoutes[userRole];
 
   return (
-    <aside className=" sticky top-0 bg-white flex flex-col py-6 w-64 items-center space-y-7 border-r border-[#abb8ff]">
-      <div className="flex justify-center py-5">
-        {/* <Image src={logo} alt="Maisha logo" width={130} quality={100}  placeholder="blur" /> */}
-        <div className="text-3xl font-bold text-gray-700">[Maisha-<span className="text-whiteTheme-primaryColor">Logo]</span></div>
+    <aside className=" sticky top-0 bg-white flex flex-col w-64 items-center space-y-7 border-r border-[#abb8ff]">
+      <div className="flex ">
+        <Image src={logo} alt="Maisha logo" width={190} quality={100}  placeholder="blur" className="-mt-7" />
       </div>
       <div className="w-full">
         <h3 className=" text-whiteTheme-titleColor pl-12 font-semibold">Main menu</h3>

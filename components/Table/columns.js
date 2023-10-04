@@ -1,26 +1,35 @@
 export const COLUMNS = [
     {
-        Header: 'PATIENT_ID',
-        accessor: 'patient_id'
+      Header: "Name",
+      accessor: "Name",
     },
     {
-        Header: 'PATIENT_NAME',
-        accessor: 'patient_name'
+      Header: "District",
+      accessor: "District",
     },
     {
-        Header: 'DISEASE',
-        accessor: 'disease'
+      Header: "Sector",
+      accessor: "Sector",
     },
     {
-        Header: 'EMAIL',
-        accessor: 'email'
+      Header: "Rank",
+      accessor: "Rank",
     },
     {
-        Header: 'FACILITY_FROM',
-        accessor: 'facility_from'
+      Header: "Facility type",
+      accessor: "Facility type",
     },
     {
-        Header: 'PRIORITY',
-        accessor: 'priority'
-    },
-]
+        Header: "Transfer",
+        accessor: "Transfer",
+      },
+      {
+        Header: "Province",
+        accessor: "Province",
+      },
+      {
+        Header: "Disease",
+        accessor: "Disease",
+      },
+    
+  ];
